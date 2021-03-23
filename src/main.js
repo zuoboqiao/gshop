@@ -18,7 +18,7 @@ VueRouter.prototype.push = function push(location) {
 
 
 new Vue({
-  router,
-  store,
+  router,  // 使用vue-router
+  store,   // 使用vuex
   render: h => h(App)
 }).$mount('#app')
